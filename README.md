@@ -1,1 +1,6 @@
-# re80a.py
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+
+print(a>10 and b>10)
+print(a<5 or b>5)
+print(not(a<b))
